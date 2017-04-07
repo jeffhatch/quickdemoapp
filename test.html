@@ -4,11 +4,25 @@
 	<meta charset="UTF-8">
 	<title>Biography of Jeffrey Hatch</title>
 	<style type="text/css">
+		.contents {
+			margin: 30px 20px;
+			background-color: #ffffcc;
+			min-height: 430px;
+			border: 1px solid #bfbfbf;
+			}
 		.name-div {
-
+			background-color: #000;
+			padding:6px 0px;
+			color: #fff;
+			text-align: center;
+			width: 100%	
+			margin-bottom:20px;
 			}
 		.photo-div {
-
+			width: 200px;
+			height: 500px;
+			float: left;
+			margin-left:40px;
 			}
 		.photo-div img{
 			width: 200px;
@@ -16,21 +30,36 @@
 			background-color: #f5f5f5;
 			}			
 		.bio-div {
-
+			width: 40%;
+			display: inline-block;
+			height: 450px;
+			float: left;
+			margin-left: 40px;
+			padding-top: 50px;
 			}
 		.contact-div {
-
+			float:left;
+			display: inline-block;
+			height: 500px;
+			margin-left: 40px;
 			}
 	</style>
 </head>
 <body>
-	<div>
+<!-- Student Bio -->
+	<div class="contents">
+		<!-- Section 1: Title Header -->
 		<div class="name-div"><h1>Student Bio</h1></div>
+
+		<!-- Section 2: Name and Photo -->
 		<div class="photo-div"><h2>Jeffrey Hatch</h2><img src="images/jeff.png" border="0" alt="Jeffrey Hatch"></div>
+
+		<!-- Section 3: Bio Paragraphs -->
 		<div class="bio-div">
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et urna ac lacus dictum viverra. Donec porttitor porttitor sollicitudin. Nullam facilisis neque mi, nec lobortis turpis fringilla nec. Sed et placerat arcu, eget ornare nibh. Phasellus vulputate ex nec sagittis maximus. Proin sed libero quis nunc varius convallis. Mauris massa nibh, ultrices vel leo nec, aliquam scelerisque augue. Quisque sed felis et eros vestibulum faucibus consequat sit amet lorem. Quisque dapibus consectetur hendrerit. Etiam consequat, nunc et gravida mollis, mi mauris finibus risus, vitae tristique mauris neque sit amet enim. Ut venenatis velit eu massa tristique sodales.</p>
-			<p>Vivamus lorem urna, molestie ac condimentum ut, sollicitudin ultrices dui. Mauris nec ante tempor, ornare erat vel, suscipit diam. Fusce vel risus vestibulum, suscipit dolor in, scelerisque metus. Nunc pellentesque dolor risus. Pellentesque placerat vitae nisi nec porta. Quisque vitae consequat urna, id fringilla lectus. Curabitur auctor lectus et nulla auctor hendrerit vel sit amet ex. Ut et sem in magna aliquet convallis. In pellentesque massa odio, sit amet blandit sem cursus sed. Pellentesque a ultrices ligula. Morbi semper egestas diam, ac convallis sapien facilisis bibendum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
 		</div>
+
+		<!-- Section 4: Contact Info -->
 		<div class="contact-div">
 			<h2>Contact info</h2>
 			<ul>
@@ -39,6 +68,7 @@
 				<li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
 			</ul>				
 		</div>
+
 	</div>
 </body>
 </html>
